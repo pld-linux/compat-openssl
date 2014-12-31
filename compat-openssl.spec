@@ -9,6 +9,7 @@ Source0:	openssl-compat-%{version}.tar.xz
 BuildRequires:	/sbin/ldconfig
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
+Conflicts:	openssl < 0.9.7m-9
 ExclusiveArch:	%{x8664} %{ix86} alpha ppc sparc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
