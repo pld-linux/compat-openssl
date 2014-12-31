@@ -2,7 +2,7 @@ Summary:	OpenSSL Toolkit libraries for the "Secure Sockets Layer" (SSL v2/v3)
 Name:		compat-openssl
 Version:	0.9.7m
 Release:	9
-License:	GPL
+License:	Apache-like
 Group:		Libraries
 Source0:	openssl-compat-%{version}.tar.xz
 # Source0-md5:	2c13cb0bba2f731f1e80ef514befd82b
